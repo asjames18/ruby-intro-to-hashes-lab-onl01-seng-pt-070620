@@ -28,22 +28,22 @@ monopoly_with_second_tier = {
 
 end
 
-# def monopoly_with_third_tier
-# #
-# monopoly_with_third_tier = {
-#   :rent_in_dollars => {
-#   :one_piece_owned => 25
-#  }
-# }
-# end
+def monopoly_with_third_tier
+#
+monopoly_with_third_tier = {
+  :rent_in_dollars => {
+  :one_piece_owned => 25
+ }
+}
+end
 
 def monopoly_with_fourth_tier
 monopoly_with_fourth_tier = {
   :mortgage_value => {
     :names => 3,
-    :reading_railroad = {},
-    :pennsylvania_railroad => {},
-    :shortline => $800
+    # :reading_railroad = {},
+    # :pennsylvania_railroad => {},
+    # :shortline => $800
  }
 }
 end
