@@ -30,13 +30,10 @@ monopoly_with_second_tier = {
 end
 
 def monopoly_with_third_tier
-#
 monopoly_with_third_tier = {
   :railroads => {
     :pieces => 3,
     :names => {},
-
-
  }
 }
 end
@@ -44,7 +41,7 @@ end
 def monopoly_with_fourth_tier
 monopoly_with_fourth_tier = {
   :railroads => {
-    :pieces => 4,
+    :pieces => 3,
     :names => {},
     :rent_in_dollars => {}
  }
