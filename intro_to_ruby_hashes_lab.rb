@@ -36,6 +36,7 @@ monopoly_with_third_tier = {
  }
  :rent_in_dollars => 50
  :two_pieces_owned => 2
+ }
 
 }
 end
