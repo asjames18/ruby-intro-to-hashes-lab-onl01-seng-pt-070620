@@ -19,8 +19,10 @@ end
 
 def monopoly_with_second_tier
 monopoly_with_second_tier = {
-  :railroads => { :pieces => 4,
-  :names => {}, :rent_in_dollars => {}
+  :railroads => {
+    :pieces => 4,
+    :names => {},
+    :rent_in_dollars => {}
  }
 }
 
@@ -38,10 +40,10 @@ end
 def monopoly_with_fourth_tier
 monopoly_with_fourth_tier = {
   :mortgage_value => {
-  :names => 3
-  :reading_railroad = {}
-  :pennsylvania_railroad => {}
-  :shortline => $800
+    :names => 3,
+    :reading_railroad = {},
+    :pennsylvania_railroad => {},
+    :shortline => $800
  }
 }
 end
