@@ -30,12 +30,9 @@ end
 
 def monopoly_with_third_tier
 #
-monopoly_with_third_tier = {
-  :rent_in_dollars => 25,
-   :one_piece_owned => 3
- }
+monopoly_with_third_tier =
 
-}
+
 end
 
 def monopoly_with_fourth_tier
